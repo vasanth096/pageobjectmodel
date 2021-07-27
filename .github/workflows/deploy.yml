@@ -17,7 +17,7 @@ jobs:
           script: |
             mkdir test 
             cd test 
-            git clone https://github.com/vasanth096/pageobjectmodel.git
+            git clone git@github.com:vasanth096/pageobjectmodel.git
             echo 'Deployment successful to digital ocean'
             cd PageObjectModel
             mvn clean test
