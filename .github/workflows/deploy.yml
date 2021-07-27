@@ -25,4 +25,3 @@ jobs:
             git clone https://github.com/vasanth096/pageobjectmodel.git
             echo 'Deployment successful to digital ocean'
             cd pageobjectmodel
-            mvn clean test
